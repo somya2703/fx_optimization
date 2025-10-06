@@ -1,0 +1,19 @@
+name: fx_opt
+channels:
+  - nvidia
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - matplotlib
+  - jupyterlab
+  - ipykernel
+  - pytorch>=2.1
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1  # remove this line if using CPU-only
+  - pip:
+      - torchmetrics
